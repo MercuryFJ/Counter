@@ -1,18 +1,73 @@
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .textGreen {
-  color: green;
+  color: lightgreen;
 }
 
 .textOrange {
   color: orange;
 }
 
-.textRed{
+.textRed {
   color: red;
+}
+
+.textMagenta {
+  color: magenta;
+}
+
+#tittle {
+  color: rgba(0, 255, 23, 1);
+  font-family: monospace;
+  font-size: 7rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+#divParent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 80%, rgba(0, 255, 23, 1) 100%);
+}
+
+#divChild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid rgba(0, 255, 23, 1);
+  border-radius: 30px;
+  padding: 20px;
+  margin-bottom: 17rem;
+}
+
+#textCounter {
+  font-size: 7rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+#infoDate {
+  font-size: 2.4rem;
+  font-family: monospace;
+  text-align: center;
+}
+
+input[type="date"] {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: solid rgba(0, 255, 23, 1);
+  background-color: #333;
+  color: rgba(0, 255, 23, 1);
+  font-family: monospace;
+  margin-top: 30px;
 }
